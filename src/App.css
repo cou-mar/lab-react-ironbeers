@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,77 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+*{
+  margin: 0;
+}
+
+h1{
+  text-align: center;
+  margin: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.homePhotos{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.introCards{
+  text-align: center;
+  margin: 20px 100px;
+}
+
+header{
+  background-color: #3ec4fc;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.listTitle{
+  text-align: center;
+  margin: 20px;
+}
+
+.beerPic{
+  height: 300px;
+}
+
+.beerContainer {
+  width: 100%;
+}
+
+.eachBeerDisplay{
+display: flex;
+text-align: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+@media screen and (min-width: 700px) {
+  .beerContainer{
+    width: 30%
+  }
+}
+
+.oneBeer{
+  text-align: center;
+  padding: 30px;
+}
+
+.addNew{
+  text-align: center;
+  margin: 50px;
+  line-height: 30px;
+}
+
+.addNewBttn{
+  margin-top: 20px;
 }
